@@ -43,7 +43,7 @@ spec:
   workspaces:
     - name: source
   params:
-    - name: nose
+    - name: args
       description: Arguments to pass to nose
       type: string
       default: "-v"
